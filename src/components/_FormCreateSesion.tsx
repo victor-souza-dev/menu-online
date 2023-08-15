@@ -23,6 +23,9 @@ export function FormCreateSesion() {
         <Input label="Nome do produto" type="text" placeholder="produto" />
         <Input label="Preço do produto" type="text" placeholder="preço" />
       </div>
+      <div>
+        <Input label="Descrição" type="text" placeholder="Escreva uma descrição" />
+      </div>
     </div>
   )
 }
