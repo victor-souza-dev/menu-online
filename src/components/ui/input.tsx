@@ -5,7 +5,7 @@ interface InputProps {
 }
 export function Input({ label, placeholder, type }: InputProps) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-1">
       <label htmlFor="Nome da  nova sessão">{label}</label>
       {type === 'file'
         ?

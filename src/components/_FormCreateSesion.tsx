@@ -1,5 +1,7 @@
+
 import { Icos } from "./ui/icons/";
 import { Input } from "./ui/input";
+import { Select } from "./ui/select";
 
 export function FormCreateSesion() {
   return (
@@ -19,6 +21,9 @@ export function FormCreateSesion() {
       <div className="flex flex-col">
         <Input label="Logo" type="file" />
       </div>
+      <div>
+        <Select label="Sessão do produto" />
+      </div>
       <div className="grid grid-cols-2 gap-5">
         <Input label="Nome do produto" type="text" placeholder="produto" />
         <Input label="Preço do produto" type="text" placeholder="preço" />
@@ -26,6 +31,7 @@ export function FormCreateSesion() {
       <div>
         <Input label="Descrição" type="text" placeholder="Escreva uma descrição" />
       </div>
+     
     </div>
   )
 }
