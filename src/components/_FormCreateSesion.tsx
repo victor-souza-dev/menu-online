@@ -1,7 +1,7 @@
 
 import { Icos } from "./ui/icons/";
-import { Input } from "./ui/input";
-import { Select } from "./ui/select";
+import { Input } from "./ui/Input";
+import { Select } from "./ui/Select";
 
 export function FormCreateSesion() {
   return (
