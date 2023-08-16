@@ -1,13 +1,24 @@
-import { Container } from '@/components/Container'
-import Image from 'next/image'
+
+import { FormCreateSesion } from '@/components/_FormCreateSesion'
+import { SesionItem } from '@/components/_SesionItem'
+
 
 export default function Home() {
   return (
     <>
-    <header className='bg-gray-900 h-10 text-white text-center p-2'>
-      Gerador de cardapio
-    </header>
-     <Container />
+      <header className='bg-gray-900 h-10 text-white text-center p-2'>
+        Gerador de cardapio
+      </header>
+      <div className="flex flex-1 px-9  ">
+        <div>
+          <FormCreateSesion />
+          <SesionItem />
+        </div>
+        <div>
+          hello word
+        </div>
+      </div>
+
     </>
   )
 }
