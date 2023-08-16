@@ -1,6 +1,6 @@
 
 import { FormCreateSesion } from '@/components/_FormCreateSesion'
-import { SesionItem } from '@/components/_SesionItem'
+import { ListSesion } from '@/components/_ListSesion'
 
 
 export default function Home() {
@@ -12,7 +12,8 @@ export default function Home() {
       <div className="flex flex-1 px-9  ">
         <div>
           <FormCreateSesion />
-          <SesionItem />
+          <ListSesion />
+        
         </div>
         <div>
           hello word
