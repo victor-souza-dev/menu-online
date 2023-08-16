@@ -3,6 +3,7 @@ interface InputProps {
   placeholder?: string
   type: 'text' | "number" | 'file'
 }
+
 export function Input({ label, placeholder, type }: InputProps) {
   return (
     <div className="flex flex-col gap-1">
